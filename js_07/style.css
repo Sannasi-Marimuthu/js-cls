@@ -1,0 +1,40 @@
+/* media quary */
+body  {
+    background-color: black;
+}
+
+/* mobile */
+@media only screen and  (max-width:600px)  {
+    body {
+        background-color: yellow;
+    }
+}
+
+/* mob - horizantal */
+@media only screen and (min-width:601px) {
+    body {
+        background-color: orange;
+    }
+}
+
+/* tab */
+@media only screen and (min-width:768px) and (max-width:992px) {
+    body   {
+        background-color: green;
+    }
+}
+
+/* desktop , laptop*/
+@media only screen and (min-width:992px) and (max-width:1200px) {
+    body {
+        background-color: blue;
+    }
+}
+
+
+/* long size desktop, tv, laptop */
+@media only screen and (min-width:1200px) {
+    body {
+        background-color: purple;
+    }
+}
